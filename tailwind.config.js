@@ -2,7 +2,10 @@
 module.exports = {
   content: ["./dist/*.html"],
   theme: {
-    extend: {},
+    fontFamily: {
+      manrope: ["Manrope", "sans-serif"],
+    },
+    // extend: {},
   },
   plugins: [],
 };
